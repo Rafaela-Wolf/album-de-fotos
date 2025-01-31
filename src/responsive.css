@@ -1,0 +1,34 @@
+@media(max-width: 768px) {
+    .album {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width: 600px) {
+    .album {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 460px) {
+    .search-bar input {
+        width: 150px;
+    }
+
+    .search-bar input,
+    .search-bar button,
+    .search-bar select {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .album {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(max-width: 393px) {
+    .search-bar input {
+        width: 85px;
+    }
+}
